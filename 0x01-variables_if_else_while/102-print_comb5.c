@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- main - main block
+ * main - main block
  *Description: Print all possible combinations of two two-digit numbers.
  *Numbers should range from 0 to 99.
  *The two numbers should be separated by a space.
