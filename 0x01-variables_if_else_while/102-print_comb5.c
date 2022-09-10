@@ -13,13 +13,11 @@
  *You can only use `putchar` up to 8 times.
  *You are not allowed to use any variable of type `char`.
  *Return: 0
- *Entry point
- *Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i, j;
-	int a, b, c, d;
+	int i,j;
+	int a,b,c,d;
 
 	for (i = 0; i < 100; i++)
 	{
