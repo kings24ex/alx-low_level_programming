@@ -14,8 +14,6 @@ ear
  *You can only use `putchar` up to 8 times.
  *You are not allowed to use any variable of type `char`.
  *Return: 0
- *main - Entry point
- *Return: Always 0 (Success)
  */
 int main(void)
 {
