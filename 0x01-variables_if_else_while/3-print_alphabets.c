@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ *main - Entry point
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -12,10 +12,14 @@ int main(void)
 
 	while (c <= 'z')
 	{
-	   putchar(c);
-	   c++;
+		putchar(c);
+		c++;
 	}
-	putchar('\n')
-	
+	while (C <= 'Z')
+	{
+		putchar(C);
+		C++;
+	}
+	putchar('\n');
 	return (0);
 }
