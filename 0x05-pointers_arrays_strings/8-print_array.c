@@ -5,7 +5,8 @@
  *print_array - prints n element of array
  *@a: array
  *@n: number of elements
- */
+ *Return: nothing
+*/
 
 void print_array(int *a, int n)
 {
@@ -17,9 +18,6 @@ void print_array(int *a, int n)
 			printf("%d, ", a[inc]);
 		else
 			printf("%d", a[inc]);
-
-
 	}
-	printf("%d", a[inc]);
-
+	putchar(10);
 }
