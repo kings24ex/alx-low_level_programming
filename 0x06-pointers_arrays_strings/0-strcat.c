@@ -1,20 +1,26 @@
 #include "main.h"
 
 /**
- *string_toupper - function to transform all lowercase in string to uppercase
- *@c: character string pointer
+ * _strcat - function to concatenate two strings and return a new string
+ *@dest: string 1
+ *@src: string 2
  *Return: char pointer
 */
 
-char *string_toupper(char *c)
+char *_strcat(char *dest, char *src)
 {
-	int i = 0;
+	int i = 0, j = 0;
+	char *p;
 
-	while (c[i] != '\0')
-	{
-		if (c[i] > 96 && c[i] < 123)
-			c[i] -= 32;
+	while (*(dest + i) != '\0')
 		i++;
+	while (*(src + j) != '\0')
+	{
+		*(dest + i) = *(src + j);
+		i++;
+		j++;
 	}
-	return (c);
+	*(dest + i) = '\0';
+	p = dest;
+	return (p);
 }
