@@ -11,7 +11,6 @@
 
 void print_diagsums(int *a, int size)
 {
-	
 	int i = 0, len, diag_sum = 0;
 
 	len = size * size;
