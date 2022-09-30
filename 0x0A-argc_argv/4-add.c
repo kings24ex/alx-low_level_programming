@@ -2,16 +2,16 @@
 #include <stdio.h>
 
 /**
- *main - adds positive numbers
- *@argc: argument count
- * @argv: argument vector
- * Return: int
+ * main - adds positive numbers
+ *  @argc: argument count
+ *  @argv: argument vector
+ *  Return: intReturn: int
 */
 
 int main(int argc, char *argv[])
 {
 	int i, j, sum;
-	
+
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -30,4 +30,5 @@ int main(int argc, char *argv[])
 		sum += atoi(argv[i]);
 	}
 	printf("%d\n", sum);
-}	
+	return (0);
+}
