@@ -38,6 +38,8 @@ int main(int argc, char *argv[])
 unsigned int coin_count(unsigned int count, int num)
 {
 	unsigned int sum = 0;
+
+	while (!(sum + 25 > (unsigned int)num))
 	{
 		sum += 25;
 		count++;
@@ -64,4 +66,3 @@ unsigned int coin_count(unsigned int count, int num)
 	}
 	return (count);
 }
-		
