@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- *main - prints name of the program
- *@argc: argument count
- *@argv: argument vector
-  Return: int
+ * main - prints name of the program
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: int
 */
 
 int main(int argc, char *argv[])
