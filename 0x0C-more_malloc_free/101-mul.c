@@ -35,9 +35,10 @@ char *create_xarray(int size)
 {
 	char *array;
 	int index;
-	
+
 	array = malloc(sizeof(char) * size);
 
+	
 	if (array == NULL)
 		exit(98);
 
