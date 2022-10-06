@@ -27,7 +27,7 @@ int find_len(char *str)
  *                  the character 'x'. Adds a terminating null byte.
  *  @size: The size of the array to be initialized.
  *  Description:If there is insufficient space, the
- *  		function exits with a status of 98.
+ *function exits with a status of 98.
  *  Return: A pointer to the array.
 */
 
