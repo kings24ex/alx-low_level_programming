@@ -97,4 +97,4 @@ int main(int argc, char *argv[])
 	printf("\n");
 	free(res);
 	return (0);
-}	
+}
