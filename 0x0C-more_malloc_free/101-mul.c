@@ -12,6 +12,7 @@
 int _isNum(char *num)
 {
 	int i;
+
 	for (i = 0; num[i] != '\0'; i++)
 	{
 		if (num[i] < '0' || num[i] > '9')
@@ -96,4 +97,4 @@ int main(int argc, char *argv[])
 	printf("\n");
 	free(res);
 	return (0);
-}				
+}	
