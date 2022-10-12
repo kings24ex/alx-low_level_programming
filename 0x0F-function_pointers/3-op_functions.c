@@ -42,7 +42,7 @@ int op_mul(int a, int b)
  * op_div - divides a by b
  * @a: first number
  * @b: second number
- * 
+ *
  * Return: integer division of a by b
  */
 int op_div(int a, int b)
