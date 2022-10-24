@@ -1,5 +1,3 @@
-cat > 7-get_nodeint.c
-
 #include "lists.h"
 /**
  * get_nodeint_at_index - finds a given node in a linked list
@@ -20,4 +18,3 @@ return (NULL);
 
 return (head);
 }
-
