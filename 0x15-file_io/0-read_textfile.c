@@ -1,7 +1,3 @@
-cat > 0-read_textfile.c
-
-#include "main.h"
-
 #include "main.h"
 #include <unistd.h>
 #include <sys/types.h>
@@ -46,4 +42,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	return (lenw);
 }
-
