@@ -24,3 +24,4 @@ char *_strstr(char *haystack, char *needle);
 int nrandom();
 
 
+#endif /* __MAIN__ */
